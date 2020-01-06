@@ -1,0 +1,62 @@
+@keyframes tags-in {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes background-drop {
+    from {
+        height: 0vh;
+    }
+    to {
+        height: 30vh;
+    }
+}
+
+.tags {
+    background-color: black;
+    align-content: stretch;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    animation-name: background-drop;
+    animation-duration: 250ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    height: 0vh;
+}
+
+h1 {
+    margin-left: 10%;
+    width: 100%;
+    font-family: 'Hind', sans-serif;
+    font-size: 36px;
+    margin-bottom: 0px;
+    text-align: justify;
+    animation-name: tags-in;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    opacity: 0%;
+}
+
+#first {
+    margin-top: 5%;
+    animation-delay: 250ms;
+}
+
+#second {
+    animation-delay: 500ms;
+}
+
+#third {
+    animation-delay: 750ms;
+}
+
+#fourth {
+    animation-delay: 1000ms;
+}
