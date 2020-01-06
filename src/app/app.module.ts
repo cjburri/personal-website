@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StaticMenuComponent } from './static-menu/static-menu.component';
 import { TagsComponent } from './static-menu/sub-components/tags/tags.component';
+import { MenuComponent } from './static-menu/sub-components/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StaticMenuComponent,
-    TagsComponent
+    TagsComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
