@@ -7,6 +7,7 @@ import { StaticMenuComponent } from './static-menu/static-menu.component';
 import { TagsComponent } from './static-menu/sub-components/tags/tags.component';
 import { MenuComponent } from './static-menu/sub-components/menu/menu.component';
 import { PersonalComponent } from './static-menu/sub-components/personal/personal.component';
+import { FooterComponent } from './static-menu/sub-components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PersonalComponent } from './static-menu/sub-components/personal/persona
     StaticMenuComponent,
     TagsComponent,
     MenuComponent,
-    PersonalComponent
+    PersonalComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
