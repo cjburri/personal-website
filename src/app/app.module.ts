@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { StaticMenuComponent } from './static-menu/static-menu.component';
 import { TagsComponent } from './static-menu/sub-components/tags/tags.component';
 import { MenuComponent } from './static-menu/sub-components/menu/menu.component';
+import { PersonalComponent } from './static-menu/sub-components/personal/personal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StaticMenuComponent,
     TagsComponent,
-    MenuComponent
+    MenuComponent,
+    PersonalComponent
   ],
   imports: [
     BrowserModule,
