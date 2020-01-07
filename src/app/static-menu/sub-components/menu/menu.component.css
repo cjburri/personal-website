@@ -1,0 +1,59 @@
+@keyframes expand-out {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes reveal-text {
+    from {
+        visibility: hidden;
+    }
+    to {
+        visibility: visible;
+    }
+}
+
+.menu {
+    height: 100%;
+    width: 0%;
+    animation-name: expand-out;
+    animation-delay: 250ms;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards;
+    border: black solid 1px;
+    border-top: none;
+}
+
+.links {
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+li {
+    list-style-type: none;
+    width: 100%;
+    text-align: justify;
+    align-content: center;
+    animation-delay: 500ms;
+    animation-name: reveal-text;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.links {
+    padding-left: 0px;
+    height: 100%;
+    margin-bottom: 0px;
+}
