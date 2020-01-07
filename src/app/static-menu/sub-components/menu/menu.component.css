@@ -23,13 +23,12 @@
     animation-delay: 250ms;
     animation-duration: 250ms;
     animation-fill-mode: forwards;
-    border: black solid 1px;
     border-top: none;
 }
 
 .links {
     height: 100%;
-    background-color: white;
+    background-color: #8096A5;
     display: flex;
     flex-wrap: wrap;
     align-content: stretch;
@@ -38,7 +37,8 @@
 li {
     list-style-type: none;
     width: 100%;
-    text-align: justify;
+    text-align: right;
+    padding-right: 10%;
     align-content: center;
     animation-delay: 500ms;
     animation-name: reveal-text;
@@ -49,11 +49,12 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #F7F6F3;
 }
 
 .links {
     padding-left: 0px;
     height: 100%;
     margin-bottom: 0px;
+    padding-top: 15%;
 }
