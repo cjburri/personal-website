@@ -17,9 +17,9 @@
 }
 
 .tags {
-    background-color: black;
+    background-color: #1E2940;
     align-content: stretch;
-    color: white;
+    color: #F7F6F3;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -31,7 +31,7 @@
 }
 
 h1 {
-    margin-left: 10%;
+    padding-left: 15%;
     width: 100%;
     font-family: 'Hind', sans-serif;
     font-size: 36px;
