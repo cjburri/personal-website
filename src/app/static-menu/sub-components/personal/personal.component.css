@@ -28,4 +28,10 @@
 .text {
     opacity: 0;
     animation: 500ms ease 3s forwards change-visibility;
+    text-align: center;
+    display: inline-block;
+}
+
+#image {
+    border-radius: 50%;
 }
