@@ -24,8 +24,8 @@
     flex-wrap: wrap;
     width: 100%;
     animation-name: background-drop;
-    animation-duration: 250ms;
-    animation-timing-function: ease-in-out;
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
     animation-fill-mode: forwards;
     height: 0vh;
 }
@@ -38,25 +38,25 @@ h1 {
     margin-bottom: 0px;
     text-align: justify;
     animation-name: tags-in;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
+    animation-duration: 500ms;
+    animation-timing-function: ease;
     animation-fill-mode: forwards;
     opacity: 0%;
 }
 
 #first {
     margin-top: 5%;
-    animation-delay: 250ms;
+    animation-delay: 1250ms;
 }
 
 #second {
-    animation-delay: 500ms;
+    animation-delay: 1500ms;
 }
 
 #third {
-    animation-delay: 750ms;
+    animation-delay: 1750ms;
 }
 
 #fourth {
-    animation-delay: 1000ms;
+    animation-delay: 2000ms;
 }

@@ -1,0 +1,40 @@
+@keyframes slide-out {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes change-visibility {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.background-content {
+    width: 0%;
+    height: 100%;
+    background-color: #1E2940;
+    color: #F7F6F3;
+    padding-left: 0%;
+    animation-name: slide-out;
+    animation-duration: 1000ms;
+    animation-delay: 3000ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.inner-content {
+    opacity: 0;
+    padding-left: 10%;
+    animation-name: change-visibility;
+    animation-duration: 500ms;
+    animation-delay: 4000ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}

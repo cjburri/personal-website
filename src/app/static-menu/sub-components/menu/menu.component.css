@@ -20,9 +20,10 @@
     height: 100%;
     width: 0%;
     animation-name: expand-out;
-    animation-delay: 250ms;
-    animation-duration: 250ms;
+    animation-delay: 1000ms;
+    animation-duration: 1000ms;
     animation-fill-mode: forwards;
+    animation-timing-function: ease;
     border-top: none;
 }
 
@@ -40,10 +41,11 @@ li {
     text-align: right;
     padding-right: 10%;
     align-content: center;
-    animation-delay: 500ms;
+    animation-delay: 2000ms;
     animation-name: reveal-text;
-    animation-duration: 250ms;
+    animation-duration: 500ms;
     animation-fill-mode: forwards;
+    animation-timing-function: ease;
     visibility: hidden;
 }
 
